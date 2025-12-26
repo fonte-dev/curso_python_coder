@@ -27,7 +27,7 @@ sintomas_graves = True
 tiene_familia = True
 
 # Prueba SIN paréntesis (Peligroso)
-# Python evalúa: sintomas AND not tiene_familia primero.
+# Python evalúa: síntomas AND not tiene_familia primero.
 decision_mala = riesgo_inminente or sintomas_graves and not tiene_familia
 
 # Prueba CON paréntesis (Lo que quiero)
