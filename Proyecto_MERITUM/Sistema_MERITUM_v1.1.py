@@ -1,4 +1,4 @@
-# --- PROJECT MAT v1.1: SISTEMA DE GESTIÓN ---
+# --- PROJECT MERITUM v1.1: SISTEMA DE GESTIÓN ---
 # Autor: Juan Pablo Fonte (AT)
 # Descripción: Sistema de gestión de pacientes y evoluciones (CLI).
 

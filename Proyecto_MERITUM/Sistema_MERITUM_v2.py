@@ -1,4 +1,4 @@
-# --- SISTEMA DE GESTIÓN MAT v2.0 ---
+# --- SISTEMA DE GESTIÓN MERITUM v2.0 ---
 # Arquitectura: Modular (Funciones)
 # Estado: Estructura vacía (Skeleton)
 

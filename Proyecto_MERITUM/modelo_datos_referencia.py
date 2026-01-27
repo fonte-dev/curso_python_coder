@@ -1,4 +1,4 @@
-# PROJECT MAT - ESTRUCTURA DE DATOS V1.0
+# PROJECT MERITUM - ESTRUCTURA DE DATOS V1.0
 
 # Perfil de Paciente (Diccionario Maestro)
 paciente_A = {
