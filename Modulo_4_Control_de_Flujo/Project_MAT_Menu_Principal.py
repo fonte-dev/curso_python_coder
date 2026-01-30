@@ -1,4 +1,4 @@
-# --- PROJECT MAT: MENÚ PRINCIPAL ---
+# --- PROJECT MERITUM: MENÚ PRINCIPAL ---
 # Notas: Estructura base para navegar por el sistema.
 # Usa un while True para mantenerse vivo.
 
@@ -8,9 +8,9 @@ while True:
     print("\n" + "=" * 40)
     print("   SISTEMA DE GESTIÓN: ACOMPAÑAMIENTO T.")
     print("=" * 40)
-    print("1. 📝 Ingresar Evolución")
-    print("2. 🚨 Evaluación de Crisis (Triaje)")
-    print("3. 🚪 Salir")
+    print("1. Ingresar Evolución")
+    print("2. Evaluación de Crisis (Triaje)")
+    print("3. Salir")
     print("-" * 40)
 
     opcion = input(">>> Su elección: ")
@@ -30,15 +30,15 @@ while True:
                 if 1 <= excitacion <= 10:
                     break  # Salgo del bucle de validación
                 else:
-                    print("❌ Error: Debe ser entre 1 y 10.")
+                    print("Error: Debe ser entre 1 y 10.")
             except ValueError:
-                print("❌ Error: Escriba un numero, no letras.")
+                print("Error: Escriba un numero, no letras.")
 
         # Ahora sí, evaluamos con el dato limpio
         if excitacion >= 6:
-            print("⚠️ ALERTA: Paciente desregulado.")
+            print("ALERTA: Paciente desregulado.")
         else:
-            print("✅ Paciente estable.")
+            print("Paciente estable.")
 
         input("Enter para continuar...")
 
@@ -47,4 +47,4 @@ while True:
         break  # Rompe el bucle principal y termina
 
     else:
-        print("\n❌ Opción errónea. Prueba de nuevo.")
+        print("\nOpción errónea. Prueba de nuevo.")

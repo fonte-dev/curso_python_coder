@@ -107,9 +107,9 @@ def suma_numeros():
             suma_total += numero
             print(f"   -> Suma parcial: {suma_total}")
         else:
-            print("⚠️ Eso no es un número entero.")
+            print("Eso no es un número entero.")
 
-    print(f"\n💰 RESULTADO FINAL: {suma_total}")
+    print(f"\nRESULTADO FINAL: {suma_total}")
 
 
 # ==========================================
@@ -151,7 +151,7 @@ def cancion_manu_chao():
 
     # Iteramos usando FOR
     for cosa in cosas_que_gustan:
-        print(f"🎵 Me gusta {cosa}, me gustas tú")
+        print(f"Me gusta {cosa}, me gustas tú")
 
 
 # ==========================================

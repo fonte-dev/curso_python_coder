@@ -35,7 +35,7 @@ for indice, sintoma in enumerate(sintomas):
     print(f"Sintoma #{indice + 1}: {sintoma.upper()}")
 
 
-# 4. APLICACIÓN PROJECT MAT: NORMALIZACIÓN DE DATOS
+# 4. APLICACIÓN PROJECT MERITUM: NORMALIZACIÓN DE DATOS
 # Caso real: Los usuarios cargan nombres mal (minúsculas, espacios).
 # Script para limpiar la base de datos.
 

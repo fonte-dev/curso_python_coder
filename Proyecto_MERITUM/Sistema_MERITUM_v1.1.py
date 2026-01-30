@@ -15,7 +15,7 @@ def limpiar_pantalla():
     os.system("cls" if os.name == "nt" else "clear")
 
 
-print("INICIANDO SISTEMA MAT...")
+print("INICIANDO SISTEMA MERITUM...")
 time.sleep(1)
 
 while True:
@@ -25,11 +25,11 @@ while True:
     print("=" * 40)
     print(f"Pacientes activos: {len(pacientes)}")
     print("-" * 40)
-    print("1. 👥 Ver Lista de Pacientes")
-    print("2. ➕ Registrar Nuevo Paciente")
-    print("3. 📝 Cargar Evolución Diaria")
-    print("4. 📜 Ver Historial de Evoluciones")
-    print("5. 🚪 Salir")
+    print("1. Ver Lista de Pacientes")
+    print("2. Registrar Nuevo Paciente")
+    print("3. Cargar Evolución Diaria")
+    print("4. Ver Historial de Evoluciones")
+    print("5. Salir")
     print("=" * 40)
 
     opcion = input(">>> Tu elección: ")
@@ -49,13 +49,13 @@ while True:
             nuevo_p = input("\nNombre del nuevo paciente: ").strip().title()
             if len(nuevo_p) > 0:
                 break
-            print("❌ El nombre no puede estar vacío.")
+            print("El nombre no puede estar vacío.")
 
         if nuevo_p in pacientes:
-            print("⚠️ Ese paciente ya existe.")
+            print("Ese paciente ya existe.")
         else:
             pacientes.append(nuevo_p)
-            print(f"✅ {nuevo_p} agregado al sistema.")
+            print(f"{nuevo_p} agregado al sistema.")
         time.sleep(1.5)
 
     # --- OPCIÓN 3: CARGAR EVOLUCIÓN ---
@@ -76,16 +76,16 @@ while True:
                     if len(texto) > 0:
                         break
                     else:
-                        print("❌ Error: No se puede guardar una nota vacía.")
+                        print("Error: No se puede guardar una nota vacía.")
 
                 dia = "29/12"  # TODO: Implementar fecha automática
                 registro = f"[{dia}] {paciente_selec}: {texto}"
                 evoluciones.append(registro)
-                print("✅ Evolución guardada.")
+                print("Evolución guardada.")
             else:
-                print("❌ Número incorrecto.")
+                print("Número incorrecto.")
         except ValueError:
-            print("❌ Debe ingresar un número.")
+            print("Debe ingresar un número.")
 
         time.sleep(1.5)
 

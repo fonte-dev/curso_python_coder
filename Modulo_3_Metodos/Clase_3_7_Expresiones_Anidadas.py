@@ -19,7 +19,7 @@ print(f"Potencia sin cubrir: {prueba_potencia}")
 print(f"Potencia cubierta: {prueba_potencia_fix}")
 
 
-# 2. Lógica Booleana (Test para Project MAT)
+# 2. Lógica Booleana (Test para Project MERITUM)
 # Caso: Internar paciente si (Tiene Riesgo O Tiene Síntomas Graves) Y (No tiene familia)
 
 riesgo_inminente = False

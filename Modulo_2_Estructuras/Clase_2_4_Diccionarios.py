@@ -1,4 +1,4 @@
-# --- PROJECT MAT: GESTIÓN DE PACIENTE ---
+# --- PROJECT MERITUM: GESTIÓN DE PACIENTE ---
 
 # 1. Creación del Perfil (Simulando lo que llega de un formulario web)
 paciente = {

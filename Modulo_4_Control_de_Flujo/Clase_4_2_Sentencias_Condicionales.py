@@ -20,13 +20,13 @@ print("carnes")
 pedido = input("Selecciona una comida del menú: ")
 
 if pedido == "verduras":
-    print("✅Pedido recibido")
+    print("Pedido recibido")
 elif pedido == "pastas":
-    print("✅Pedido recibido")
+    print("Pedido recibido")
 elif pedido == "carnes":
-    print("✅Pedido recibido")
+    print("Pedido recibido")
 else:
-    print("❌ Pedido no disponible")
+    print("Pedido no disponible")
 
 # VIDEO 2: Ejemplos prácticos con condicionales
 

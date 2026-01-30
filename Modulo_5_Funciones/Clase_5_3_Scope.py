@@ -8,7 +8,7 @@ paciente_actual = "Nadie"
 
 def mostrar_configuracion():
     # Puedo LEER variables globales sin problemas
-    print(f"Sistema MAT v{APP_VERSION}")
+    print(f"Sistema MERITUM v{APP_VERSION}")
 
 
 # 2. VARIABLE LOCAL (Vida corta)

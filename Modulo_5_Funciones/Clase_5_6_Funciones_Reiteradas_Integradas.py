@@ -21,10 +21,10 @@ def factorial(n):
 # Ejemplo Útil: Simular Reintentos de Conexión
 def intentar_conectar_db(intentos_restantes):
     if intentos_restantes <= 0:
-        print("❌ Error fatal: No se pudo conectar tras varios intentos.")
+        print("Error fatal: No se pudo conectar tras varios intentos.")
         return False
 
-    print(f"🔄 Intentando conectar... (Quedan {intentos_restantes} intentos)")
+    print(f"Intentando conectar... (Quedan {intentos_restantes} intentos)")
     # Simulo fallo y pruebo de nuevo llamandome a mi mismo
     # En la vida real, acá habría un try/except
     return intentar_conectar_db(intentos_restantes - 1)
@@ -63,7 +63,7 @@ print(f"Tratamiento más caro: ${max(costos_tratamiento)}")
 # Filter sirve para sacar elementos de una lista según una condición.
 # Sintaxis: filter(funcion_que_devuelve_true_o_false, lista)
 
-print("\n--- USO DE FILTER (PROJECT MAT) ---")
+print("\n--- USO DE FILTER (PROJECT MERITUM) ---")
 
 pacientes_mix = ["juan", "maria", "pedro", "ana", "luis"]
 

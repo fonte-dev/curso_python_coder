@@ -28,7 +28,7 @@ while True:
         print("Saliendo del programa...")
         break  # Rompe el while
     else:
-        print("❌ Opción incorrecta. Probá de nuevo.")
+        print("Opción incorrecta. Probá de nuevo.")
 
 
 # ==========================================
@@ -40,12 +40,12 @@ while True:
     try:
         numero = int(input("Ingresá un número IMPAR: "))
         if numero % 2 != 0:  # Si el resto no es 0, es impar
-            print(f"✅ Correcto! El {numero} es impar.")
+            print(f"Correcto! El {numero} es impar.")
             break  # Salgo del bucle
         else:
-            print("❌ Ese es par. Intentá de nuevo.")
+            print("Ese es par. Intentá de nuevo.")
     except ValueError:
-        print("❌ Eso no es un número entero.")
+        print("Eso no es un número entero.")
 
 
 # ==========================================

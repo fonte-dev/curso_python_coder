@@ -51,7 +51,7 @@ print(f"- Adulto: {es_adulto}")
 print(f"- Riesgo: {es_riesgo}")
 
 
-# C. PROJECT MAT: Validaciones
+# C. PROJECT MERITUM: Validaciones
 def limpiar_texto(texto_sucio):
     """Recibe texto con espacios y minúsculas, devuelve texto limpio."""
     if not texto_sucio:  # Si esta vacio

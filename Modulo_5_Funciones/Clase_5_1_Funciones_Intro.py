@@ -5,13 +5,13 @@
 # 1. FUNCIÓN SIMPLE (VOID)
 # No recibe nada, no devuelve nada. Solo "hace" algo (Efecto secundario).
 def saludar_generico():
-    print("👋 Hola! Soy una función simple.")
+    print("Hola! Soy una función simple.")
 
 
 # 2. FUNCIÓN CON PARÁMETROS
 # Recibe datos para trabajar (Argumentos).
 def saludar_personalizado(nombre):
-    print(f"👋 Hola, {nombre}! ¿Todo bien?")
+    print(f"Hola, {nombre}! ¿Todo bien?")
 
 
 # 3. FUNCIÓN CON RETURN (LA IMPORTANTE)

@@ -7,7 +7,7 @@ print("La cantidad de veces es:", cuenta)
 
 desarrollo = ["Python", "C++", "Java", "C#", "JavaScript"]
 
-print("🔥 Obtener")
+print("Obtener")
 mi_elemento = desarrollo[0]
 print(mi_elemento)
 
@@ -17,13 +17,13 @@ java = desarrollo.index("Java")
 print(java)
 print(desarrollo[java])
 
-print("🔥 Crear")
+print("Crear")
 desarrollo.append("Rust")  # apprend = agregar elemento al final de la lista de a uno
 print(desarrollo)
 desarrollo += ["Go", "Swift"]  # += agregar multiples elementos al mismo tiempo
 print(desarrollo)
 
-print("🔥 Modificar")
+print("Modificar")
 indice = desarrollo.index("C#")
 desarrollo[indice] = "Mojo"  # llamo al indice y cambio su valor
 print(desarrollo)
@@ -34,7 +34,7 @@ desarrollo.extend(
 )  # extiendo la lista original agregando una nueva a esta
 print(desarrollo)
 
-print("🔥 Eliminar")
+print("Eliminar")
 indice = desarrollo.index("Basic")
 del desarrollo[indice]  # remueve elemento especifico
 print(desarrollo)

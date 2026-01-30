@@ -73,7 +73,7 @@ divisa_input = input("Ingrese la divisa (Dolar/Euro/Libra): ").strip().title()
 if divisa_input in divisas:
     print(f"El símbolo de {divisa_input} es: {divisas[divisa_input]}")
 else:
-    print(f"⚠️ La divisa '{divisa_input}' no está disponible.")
+    print(f"La divisa '{divisa_input}' no está disponible.")
 
 
 # ==========================================
@@ -129,6 +129,6 @@ print(f"\n¿Cumple todas las condiciones?: {cumple_requisitos}")
 
 # Explicación del resultado
 if cumple_requisitos:
-    print("✅ Pasa la validación.")
+    print("Pasa la validación.")
 else:
-    print("❌ No pasa la validación.")
+    print("No pasa la validación.")

@@ -19,7 +19,7 @@ def paciente():
     pass
 
 
-# --- EJEMPLOS CORRECTOS (PROJECT MAT) ---
+# --- EJEMPLOS CORRECTOS (PROJECT MERITUM) ---
 
 
 # 1. Acciones claras

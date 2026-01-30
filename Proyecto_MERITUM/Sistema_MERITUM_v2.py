@@ -20,11 +20,11 @@ def mostrar_menu():
     print("\n" + "=" * 40)
     print("       ACOMPAÑAMIENTO TERAPÉUTICO")
     print("=" * 40)
-    print("1. 👥 Ver Pacientes")
-    print("2. ➕ Nuevo Paciente")
-    print("3. 📝 Cargar Evolución")
-    print("4. 📜 Ver Historial")
-    print("5. 🚪 Salir")
+    print("1. Ver Pacientes")
+    print("2. Nuevo Paciente")
+    print("3. Cargar Evolución")
+    print("4. Ver Historial")
+    print("5. Salir")
     print("=" * 40)
 
 
@@ -34,7 +34,7 @@ def pedir_input_validado(mensaje):
         texto = input(mensaje).strip()
         if len(texto) > 0:
             return texto
-        print("❌ Error: El campo no puede estar vacío.")
+        print("Error: El campo no puede estar vacío.")
 
 
 # --- 3. FUNCIONES DE LÓGICA (Acciones) ---
@@ -47,10 +47,10 @@ def listar_pacientes():
 def registrar_paciente():
     nombre = pedir_input_validado("\nNombre del nuevo paciente: ").title()
     if nombre in pacientes:
-        print("⚠️ El paciente ya existe.")
+        print("El paciente ya existe.")
     else:
         pacientes.append(nombre)
-        print(f"✅ {nombre} registrado.")
+        print(f"{nombre} registrado.")
     time.sleep(1.5)
 
 
@@ -71,12 +71,12 @@ def cargar_evolucion():
             dia = datetime.datetime.now().strftime("%d/%m %H:%M")
             registro = f"[{dia}] {paciente_selec}: {texto}"
             evoluciones.append(registro)
-            print("✅ Evolución guardada.")
+            print("Evolución guardada.")
         else:
-            print("❌ Número incorrecto (Fuera de rango).")
+            print("Número incorrecto (Fuera de rango).")
 
     except ValueError:
-        print("❌ Error: Debe ingresar un número entero.")
+        print("Error: Debe ingresar un número entero.")
 
     time.sleep(1.5)
 

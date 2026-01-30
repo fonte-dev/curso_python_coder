@@ -11,7 +11,7 @@ def ingresar_notas():
         if entrada == "fin":
             break
         elif entrada == "":
-            print("❌ No se ingresó ninguna nota")
+            print("No se ingresó ninguna nota")
             continue
 
         # Validación de tipo y rango
@@ -20,9 +20,9 @@ def ingresar_notas():
             if 0 <= nota <= 10:
                 notas.append(nota)
             else:
-                print("❌ La nota debe estar entre 0 y 10")
+                print("La nota debe estar entre 0 y 10")
         else:
-            print("❌ La nota debe ser un número entero")
+            print("La nota debe ser un número entero")
 
     return notas  # Devuelve la lista limpia
 
@@ -38,8 +38,8 @@ def calcular_promedio(notas):
 # 3. FUNCIÓN DE OUTPUT (Responsabilidad: Mostrar los resultados de forma linda al usuario)
 def mostrar_datos(promedio, notas):
     print("\n" + "-" * 30)
-    print(f"📄 Notas registradas: {notas}")
-    print(f"📊 Promedio final: {promedio:.2f}")  # .2f limita a mostrar 2 decimales
+    print(f"Notas registradas: {notas}")
+    print(f"Promedio final: {promedio:.2f}")  # .2f limita a mostrar 2 decimales
     print("-" * 30)
 
 
