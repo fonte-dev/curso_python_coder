@@ -1,0 +1,2 @@
+Django es un framework web de alto nivel escrito en Python.
+Sigue el patron de diseño Model-View-Controller (MVC).

@@ -1,0 +1,2 @@
+Cadena de texto.
+Mas cadenas de texto.
