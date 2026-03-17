@@ -26,9 +26,9 @@ def ejemplo_bucle_robusto():
             # 2. Si la línea anterior falla, saltamos al except.
             #    Si funciona, seguimos acá:
             if edad >= 18:
-                print("✅ Eres un adulto.")
+                print("Eres un adulto.")
             else:
-                print("✅ Aún no eres un adulto.")
+                print("Aún no eres un adulto.")
 
             # 3. Rompemos el bucle solo si todo salió bien
             break
